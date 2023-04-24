@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.header .usericon{
+    margin: 23px 0 0 10px;
+    color: #007fff;
+} 
+.rightside{
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+}
+.rightside .addicon{
+    margin: 15px 0 0 10px;
+    color: #007fff;
+}
+.mainwrapper{
+    display: flex;
+    justify-content: space-between;
+}

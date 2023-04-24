@@ -1,0 +1,130 @@
+{
+  "user": [
+    {
+      "name": "Akash patel",
+      "address": "A/60 hariji park soc,ahmedabad",
+      "email": "akash@gmail.com",
+      "mobile": "9878675656",
+      "gender": "male",
+      "city": "ahmedabad",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "address": "a/30 hariji park soc",
+      "name": "suraj",
+      "email": "suraj@gmail.com",
+      "mobile": "9956976967",
+      "gender": "male",
+      "city": "surat"
+    },
+    {
+      "id": 4,
+      "address": "a/30 hariji park soc",
+      "name": "rakesh",
+      "email": "rakesh@gmail.com",
+      "mobile": "9579579575",
+      "gender": "male",
+      "city": "surat"
+    },
+    {
+      "id": 5,
+      "name": "Amisha",
+      "address": "a/30 hariji park soc",
+      "email": "amisha@gmail.com",
+      "mobile": "9579579575",
+      "gender": "female",
+      "city": "Ahmedabad"
+    },
+    {
+      "name": "amisha patel",
+      "address": "a/30 harijipaark, soc",
+      "email": "amishapatel697@gmail.com",
+      "mobile": "6358965239",
+      "gender": "female",
+      "city": "ahmedabad",
+      "id": 6
+    },
+    {
+      "name": "Dhaval",
+      "address": "e/34 ganeshapark soc",
+      "email": "dhaval@gmail.com",
+      "mobile": "89658963569",
+      "gender": "male",
+      "city": "baroda",
+      "id": 7
+    },
+    {
+      "name": "smita",
+      "address": "b/72 hrijipark soc",
+      "email": "smitapatel2gmail.com",
+      "mobile": "8965893256",
+      "gender": "female",
+      "city": "gandhinagar",
+      "id": 8
+    },
+    {
+      "name": "Hiren",
+      "address": "a/30 hrijipark,soc",
+      "email": "hiren123@gmail.com",
+      "mobile": "9658956236",
+      "gender": "male",
+      "city": "ahmedabad",
+      "id": 9
+    },
+    {
+      "name": "sneha",
+      "address": "D,34 somnath soc",
+      "email": "sneha@gmail.com",
+      "mobile": "6935625968",
+      "gender": "female",
+      "city": "surat",
+      "id": 11
+    },
+    {
+      "name": "ved patel",
+      "address": "vasral,ahmedabad",
+      "email": "ved@gmail.com",
+      "mobile": "8956985635",
+      "gender": "male",
+      "city": "ahmedabad",
+      "id": 12
+    },
+    {
+      "name": "alay",
+      "address": "adajan,surat",
+      "email": "alay12@gmail.com",
+      "mobile": "8985678895",
+      "gender": "male",
+      "city": "surat",
+      "id": 13
+    },
+    {
+      "name": "nirali",
+      "address": "B/30 suraj park,thakkanagar",
+      "email": "nirali123@gmaiil.com",
+      "mobile": "8598569853",
+      "gender": "female",
+      "city": "ahmedabad",
+      "id": 14
+    },
+    {
+      "name": "Hiren patel",
+      "address": "a/30 hriji park ,ahmedabad",
+      "email": "hiren123@gmail.com",
+      "mobile": "8952659878",
+      "gender": "male",
+      "city": "ahmedabad",
+      "id": 15
+    },
+    {
+      "name": "sonal",
+      "address": "nikol,ahmedabad",
+      "email": "sonal123@gmail.com",
+      "mobile": "9685985698",
+      "gender": "female",
+      "city": "ahmedabad",
+      "id": 16
+    }
+  ]
+}
