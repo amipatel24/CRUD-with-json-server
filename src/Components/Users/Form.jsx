@@ -17,6 +17,8 @@ import {
   DialogActions,
   Grid,
 } from "@mui/material";
+
+import DateFnsUtils from "@date-io/date-fns";
 import HighlightOffIcon from "@mui/icons-material/HighlightOff";
 import Snackbar from "@mui/material/Snackbar";
 import MuiAlert from "@mui/material/Alert";
@@ -33,6 +35,7 @@ const initialValue = {
   mobile: "",
   gender: "",
   city: "",
+  dob: "",
 };
 const cities = [
   {
@@ -57,7 +60,8 @@ export default function FormDialog(props) {
   const [values, setvalues] = useState(initialValue);
   const [findErrors, setFindErrors] = useState(null);
   const [error, setError] = useState(null);
-  const { name, address, email, mobile, gender, city } = values;
+  const { name, address, email, mobile, gender, city, dob } = values;
+  console.log("dob=============>",dob);
   const [state, setState] = React.useState({
     open: false,
     vertical: "top",
@@ -89,6 +93,7 @@ export default function FormDialog(props) {
         mobile: openform?.mobile || "",
         gender: openform?.gender || "",
         city: openform?.city || "",
+        dob : openform?.dob || ""
       });
     }
   }, []);
@@ -131,6 +136,17 @@ export default function FormDialog(props) {
       }, 3000);
     }
   };
+
+  //   function GetAge(birthDate) {
+  //     var today = new Date();
+  //     var age = today.getFullYear() - birthDate.getFullYear();
+  //     var m = today.getMonth() - birthDate.getMonth();
+  //     if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+  //         age--;
+  //     }
+  //     return age;
+  // }
+  // console.log("get age",GetAge("14/07/2001"));
 
   return (
     <div>
@@ -333,6 +349,40 @@ export default function FormDialog(props) {
               </span>
             )}
           </FormControl>
+          <TextField
+            id="date"
+            label="Birthday"
+            type="date"
+            color="secondary"
+            name="dob"
+            // defaultValue="2017-05-24"
+            defaultValue={dob}
+            onChange={(e) => onValueChange(e)}
+            // className={classes.textField}
+            InputLabelProps={{
+              shrink: true,
+            }}
+          />
+          {/* <MuiPickersUtilsProvider utils={DateFnsUtils}>
+            <Grid container justifyContent="space-around">
+              <KeyboardDatePicker
+                disableToolbar
+                variant="inline"
+                format="MM/dd/yyyy"
+                margin="normal"
+                id="date-picker-inline"
+                label="Date picker inline"
+                name="dob"
+                value={dob}
+                // value={selectedDate}
+                // onChange={handleDateChange}
+                onChange={(e) => onValueChange(e)}
+                KeyboardButtonProps={{
+                  "aria-label": "change date",
+                }}
+              />
+            </Grid>
+          </MuiPickersUtilsProvider> */}
           <Box style={{ marginRight: 25 }}>
             <Checkbox id="condition" color="secondary" />
             <label

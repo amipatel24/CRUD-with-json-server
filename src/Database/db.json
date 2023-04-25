@@ -1,40 +1,24 @@
 {
   "user": [
     {
-      "name": "Akash patel",
-      "address": "A/60 hariji park soc,ahmedabad",
-      "email": "akash@gmail.com",
-      "mobile": "9878675656",
-      "gender": "male",
-      "city": "ahmedabad",
-      "id": 2
-    },
-    {
-      "id": 3,
-      "address": "a/30 hariji park soc",
-      "name": "suraj",
-      "email": "suraj@gmail.com",
-      "mobile": "9956976967",
-      "gender": "male",
-      "city": "surat"
-    },
-    {
-      "id": 4,
-      "address": "a/30 hariji park soc",
       "name": "rakesh",
+      "address": "a/30 hariji park soc",
       "email": "rakesh@gmail.com",
       "mobile": "9579579575",
       "gender": "male",
-      "city": "surat"
+      "city": "surat",
+      "dob": "2000-09-21",
+      "id": 4
     },
     {
-      "id": 5,
       "name": "Amisha",
       "address": "a/30 hariji park soc",
       "email": "amisha@gmail.com",
       "mobile": "9579579575",
       "gender": "female",
-      "city": "Ahmedabad"
+      "city": "Ahmedabad",
+      "dob": "1999-06-26",
+      "id": 5
     },
     {
       "name": "amisha patel",
@@ -43,6 +27,7 @@
       "mobile": "6358965239",
       "gender": "female",
       "city": "ahmedabad",
+      "dob": "1995-10-31",
       "id": 6
     },
     {
@@ -52,6 +37,7 @@
       "mobile": "89658963569",
       "gender": "male",
       "city": "baroda",
+      "dob": "2001-05-18",
       "id": 7
     },
     {
@@ -61,6 +47,7 @@
       "mobile": "8965893256",
       "gender": "female",
       "city": "gandhinagar",
+      "dob": "2001-02-15",
       "id": 8
     },
     {
@@ -70,6 +57,7 @@
       "mobile": "9658956236",
       "gender": "male",
       "city": "ahmedabad",
+      "dob": "2004-02-21",
       "id": 9
     },
     {
@@ -79,6 +67,7 @@
       "mobile": "6935625968",
       "gender": "female",
       "city": "surat",
+      "dob": "2000-06-25",
       "id": 11
     },
     {
@@ -88,6 +77,7 @@
       "mobile": "8956985635",
       "gender": "male",
       "city": "ahmedabad",
+      "dob": "2000-07-29",
       "id": 12
     },
     {
@@ -97,6 +87,7 @@
       "mobile": "8985678895",
       "gender": "male",
       "city": "surat",
+      "dob": "2000-07-24",
       "id": 13
     },
     {
@@ -106,6 +97,7 @@
       "mobile": "8598569853",
       "gender": "female",
       "city": "ahmedabad",
+      "dob": "2000-10-28",
       "id": 14
     },
     {
@@ -115,15 +107,17 @@
       "mobile": "8952659878",
       "gender": "male",
       "city": "ahmedabad",
+      "dob": "1995-07-29",
       "id": 15
     },
     {
       "name": "sonal",
-      "address": "nikol,ahmedabad",
+      "address": "b/45 hariji park soc",
       "email": "sonal123@gmail.com",
-      "mobile": "9685985698",
+      "mobile": "6359896523",
       "gender": "female",
       "city": "ahmedabad",
+      "dob": "2023-04-21",
       "id": 16
     }
   ]
